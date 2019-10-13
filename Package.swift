@@ -3,12 +3,12 @@
 import PackageDescription
 
 let package = Package(
-    name: "circular-carousel",
+    name: "CircularCarousel",
     products: [
-        .library(name: "circular-carousel",  targets: ["circular-carousel"])
+        .library(name: "CircularCarousel",  targets: ["CircularCarousel"])
     ],
     dependencies: [],
     targets: [
-        .target(name: "circular-carousel", path: "Framework/CircularCarousel")
+        .target(name: "CircularCarousel", path: "Framework/CircularCarousel")
     ]
 )
