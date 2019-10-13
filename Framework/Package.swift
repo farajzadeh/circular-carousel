@@ -9,6 +9,6 @@ let package = Package(
     ],
     dependencies: [],
     targets: [
-        .target(name: "CircularCarousel", path: "Framework/CircularCarousel")
+        .target(name: "CircularCarousel", path: "CircularCarousel")
     ]
 )
